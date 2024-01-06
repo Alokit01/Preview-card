@@ -78,9 +78,11 @@ background-color: rgb(131, 222, 222);
 }
 #perfume1{
     color:  hsl(228, 12%, 48%);
-    font-size: small;
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 10px;
 }
+
 #parfum1{
     
 
