@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+  
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh;
+    width: 100vw; */
+}
+.main-container .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 600px;
+    max-width: 1200px;
+   width: 1000px;
+    margin: 50px;
+    box-shadow: 5px 8px 9px rgba(0,0,0,0.09);
+    /* position: relative; */
+}
+.container .preview-card{
+    height: 350px;
+    width:450px;
+    background-color:  hsl(0, 0%, 100%);
+    border-radius: 10px;
+    display: flex;
+      
+    /* position: relative; */
+    
+}
+.preview-card .image{
+    height: 350px;}
+    
+ .image .image1{
+    height: 100%;
+    width: 225px;
+    border-radius: 10px 0px 0 10px; 
+   
+}
+.preview-card .image .image2{
+    display: none;
+}
+.preview-card .content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 20px;
+  
+
+}
+.preview-card .content .button .button1{
+    width: 170px;
+    height: 30px;
+    color:  hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#perfume1{
+    color:  hsl(228, 12%, 48%);
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+#parfum1{
+    
+
+font-family: 'Fraunces', serif;
+font-weight: 500;
+font-size:28px;
+}
+#description1{
+    color:  hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+.price span{
+    color:  hsl(228, 12%, 48%);
+}
+.content .description{
+    font-size: 14px;
+}
+ .content .price #mrp{
+    color:  hsl(158, 36%, 37%);
+    font-weight: 800;
+    margin-right:20px;
+    font-family: 'Fraunces', serif;
+    font-size:22px;
+}
+.content .price #mrp1{
+    font-size: 12px;
+    
+    
+
+}
+.content .price{
+ display: flex;
+ align-items: center;
+}
+
+ .content .gap{
+    margin-top: 15px;
+}
+.preview-card .content .button{
+    margin-left: 5px;
+}
+svg{
+    margin-right: 8px;
+}
+
+/* Add this to your existing CSS */
+
+@media only screen and (max-width: 375px) {
+
+    
+    .main-container .container{
+       /* background-color: aqua; */
+        margin-top:0;
+       height: 700px;
+       width: 375px;
+       flex: 0 0 auto;
+       
+       /* position: absolute; */
+   } 
+   
+    .container .preview-card{
+   flex-direction: column;
+    height: 550px;
+    width: 305px;
+   
+   
+   }
+    
+   
+   .preview-card .image .image1{
+       display: none;
+   }
+   .preview-card .image{
+    height: 200px;}
+   .preview-card .image .image2{
+       display: block;
+       height: 200px;
+       width: 100%;
+
+       border-radius: 10px 10px 0 0;
+   }
+  
+      
+    .preview-card .content #description1{
+        font-size:13.3px;
+        line-height:1.5;
+       word-spacing: -1.5px;
+    }  
+    .content .price #mrp{
+        font-size: 28px;
+    }
+    .preview-card .content .button .button1{
+        width: 254px;
+        height:42px ;
+    }
+    .preview-card .content #perfume1{
+        letter-spacing: 5px;
+        font-size: 10px;
+    }
+
+     }
+   
+  
