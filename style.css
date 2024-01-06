@@ -70,7 +70,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     
+}
+.preview-card .content .button .button1:hover{
+background-color: rgb(131, 222, 222);
 }
 #perfume1{
     color:  hsl(228, 12%, 48%);
