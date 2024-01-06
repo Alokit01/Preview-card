@@ -129,14 +129,14 @@ svg{
 
 /* Add this to your existing CSS */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 
     
     .main-container .container{
        /* background-color: aqua; */
         margin-top:0;
        height: 700px;
-       width: 400px;
+       width: 600px;
        flex: 0 0 auto;
        
        /* position: absolute; */
